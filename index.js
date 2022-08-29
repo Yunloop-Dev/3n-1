@@ -19,4 +19,4 @@ const threeNPlusOne = (index) => {
   console.timeEnd("Время обработки:");
 };
 
-threeNPlusOne(500000); // Необходимо написать любое число
+threeNPlusOne(500000); // Необходимо написать любое положительное число

@@ -14,9 +14,9 @@ const threeNPlusOne = (index) => {
     iterations++;
   }
   console.log(
-    `\n\nОтчёт:\n\nВводное число: ${index}\nВсего итераций 4/2/1: ${iterations}`
+    `Отчёт:\n\nВводное число: ${index}\nВсего итераций 4/2/1: ${iterations}`
   );
   console.timeEnd("Время обработки:");
 };
 
-threeNPlusOne(500000);
+threeNPlusOne(500000); // Необходимо написать любое число

@@ -11,6 +11,7 @@ const threeNPlusOne = (index) => {
     } else {
       result = result * 3 + 1;
     }
+    console.log(result);
     iterations++;
   }
   console.log(
